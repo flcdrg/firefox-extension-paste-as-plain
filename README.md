@@ -73,5 +73,4 @@ npm run build:icons
 
 ## License
 
-See LICENSE file for details.
-Firefox extension that addes a 'Paste as plain text' item to the context menu
+See [LICENSE](LICENSE) file for details.
