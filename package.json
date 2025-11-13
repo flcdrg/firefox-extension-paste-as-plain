@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build:icons": "node scripts/build-icons.js"
+    "build:icons": "node scripts/build-icons.js",
+    "build": "pnpm build:icons && web-ext build --config=my-config.mjs"
   },
   "devDependencies": {
     "sharp": "^0.33.4"
